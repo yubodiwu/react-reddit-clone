@@ -20,7 +20,7 @@ var commentsReducer = (state = [], action) => {
 
 var votesReducer = (state = [], action) => {
     switch (action.type) {
-        case: "SET_UP_VOTES":
+        case "SET_UP_VOTES":
             return action.payload;
         default:
             return state;
